@@ -23,7 +23,7 @@ Second set of Tracked Points            |
 
 Progress for 20 points        | Full sequence |
 :-------------------------:|:-------------------------:|
-<img src="results/Progress_for_20_points.png" alt="Alt text" title=""> | <img src="results/Full_sequence.png" alt="Alt text" title=""> |
+<img src="results/Progress_for_20_points.png" width="400" alt="Alt text" title=""> | <img src="results/Full_sequence.png" width="400" alt="Alt text" title=""> |
 
 
 ### 3. Shape alignment (Affine transformation)
