@@ -13,13 +13,13 @@
 
 Corner detection             |  
 :-------------------------:|
-<img src="/results/corners.png" width="300" alt="Alt text" title="">  |  
+<img src="/results/corners.png" width="350" alt="Alt text" title="">  |  
 
 ### 2. Feature tracking : optical flow (implementation of Lucas-Kanada algorithm)
 #### After getting the key points in the image, we start to track them across a sequence of images. We do this by taking patches of images t and t+1 and solve for the displacement by least squares and add them to the tracking points.
 Second set of Tracked Points            | 
 :-------------------------:|
-<img src="results/Second_set_of_Tracked_Points.png" width="300" alt="Alt text" title=""> |
+<img src="results/Second_set_of_Tracked_Points.png" width="350" alt="Alt text" title=""> |
 
 Progress for 20 points        | Full sequence |
 :-------------------------:|:-------------------------:|
