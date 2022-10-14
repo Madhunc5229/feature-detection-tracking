@@ -33,18 +33,18 @@ cv2.waitKey(0)
 #display sequence for 20 points
 for i in range(20):
   for j in range(track_x.shape[0]):
-    cv2.circle(img_20pts,(int(round(track_y[j,i],0)),int(round(track_x[j,i],0))),1,(0,0,255),-1)
+    cv2.circle(img_corners,(int(round(track_y[j,i],0)),int(round(track_x[j,i],0))),1,(0,0,255),-1)
 
-cv2.imshow('Progress for 20 points',img_20pts)
-cv2.imwrite('results/Progress_for_20_points.png',img_20pts)
+cv2.imshow('Progress for 20 points',img_corners)
+cv2.imwrite('results/Progress_for_20_points.png',img_corners)
 cv2.waitKey(0)
 
 #display full sequence image points
 for i in range(51):
   for j in range(track_x.shape[0]):
-    cv2.circle(img_tracked,(int(round(track_y[j,i],0)),int(round(track_x[j,i],0))),1,(0,0,255),-1)
+    cv2.circle(img_corners,(int(round(track_y[j,i],0)),int(round(track_x[j,i],0))),1,(0,0,255),-1)
 
-cv2.imshow('Full sequence',img_tracked)
-cv2.imwrite('results/Full_sequence.png',img_tracked)
+cv2.imshow('Full sequence',img_corners)
+cv2.imwrite('results/Full_sequence.png',img_corners)
 cv2.waitKey(0)
 
