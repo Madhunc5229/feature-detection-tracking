@@ -26,6 +26,8 @@ x1, y1 = align_shape(im1,im2)
 end_time = time.time()
 output[x1,y1] = 255 
 
+cv2.imwrite('results/alignedImage.png',output)
+
 error = evalAlignment(output,im2)
 print("error for: ",objList[2]," ", error)
 print("Run time for: ",objList[2]," ", end_time-stat_time)

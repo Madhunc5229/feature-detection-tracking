@@ -12,4 +12,5 @@ tau = 0.06
 key_pts, img_corners = getKeypoints(im[0], tau, filter_size,sigma)
 
 cv2.imshow('Corner detectiong',img_corners)
+cv2.imwrite('results/corners.png',img_corners)
 cv2.waitKey(0)

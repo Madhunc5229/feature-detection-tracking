@@ -82,7 +82,9 @@ for i in range(dist_matches.shape[0]):
 
 
 cv2.imshow('Matches using distance ratio',ratio_img)
+cv2.imwrite('results/Matches_using_distance_ratio.png',ratio_img)
 cv2.waitKey(0)
 
 cv2.imshow('Matches using neighboring distance',dist_img)
+cv2.imwrite('results/Matches_using_neighboring_distance.png',dist_img)
 cv2.waitKey(0)
