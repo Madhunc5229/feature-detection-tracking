@@ -19,10 +19,12 @@ Corner detection             |
 #### After getting the key points in the image, we start to track them across a sequence of images. We do this by taking patches of images t and t+1 and solve for the displacement by least squares and add them to the tracking points.
 Second set of Tracked Points            | 
 :-------------------------:|
-<img src="results/Second_set_of_Tracked_Points.png" alt="Alt text" title=""> | 
-Progress for 20 points           | Full sequence  |
+<img src="results/Second_set_of_Tracked_Points.png" alt="Alt text" title=""> |
+
+Progress for 20 points        | Full sequence |
 :-------------------------:|:-------------------------:|
 <img src="results/Progress_for_20_points.png" alt="Alt text" title=""> | <img src="results/Full_sequence.png" alt="Alt text" title=""> |
+
 
 ### 3. Shape alignment (Affine transformation)
 #### First, a transformation matrix is initialized and ICP (Iteratice Closest Point) alogrithm is implemented to compute affine transformation between two images. Image is transformed using this affine transformation matrix.
