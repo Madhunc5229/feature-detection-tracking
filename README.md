@@ -20,7 +20,7 @@ Corner detection             |
 Second set of Tracked Points            | 
 :-------------------------:|
 <img src="results/Second_set_of_Tracked_Points.png" alt="Alt text" title=""> | 
-Progress for 20 points           | Full sequence  | 
+Progress for 20 points           | Full sequence  |
 :-------------------------:|:-------------------------:|
 <img src="results/Progress_for_20_points.png" alt="Alt text" title=""> | <img src="results/Full_sequence.png" alt="Alt text" title=""> |
 
