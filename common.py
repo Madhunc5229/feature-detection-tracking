@@ -95,7 +95,7 @@ def getKeypoints(img, tau, filter_size, sigma):
     for j in range(img.shape[1]):
       if harris_score[i,j] > tau:
         key_points.append(np.array([i,j],dtype=np.float64))
-        img_clr = cv2.circle(img_clr,(j,i),1, (0,0,255),2)
+        img_clr = cv2.circle(img_clr,(j,i),1, (0,255,0),2)
         num_of_points +=1
 
   #convert key points to array of Nx2
