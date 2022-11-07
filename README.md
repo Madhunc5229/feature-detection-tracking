@@ -2,7 +2,7 @@
 ### This repository contains programs related to:  
 
 * Feature detection (implementation of Harris corner detection)  
-* Feature tracking : optical flow (implementation of Lucas-Kanada algorithm)
+* Feature tracking : optical flow (implementation of *Lucas-Kanada* algorithm)
 * Shape alignment (Affine transformation)
 * Feature matching (Matchin SIFT descriptors using 2 metrics)
 
